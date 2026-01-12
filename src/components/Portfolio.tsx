@@ -49,7 +49,7 @@ const Portfolio = () => {
           initial={{ opacity: 0, y: 60 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 1, delay: 0.2 }}
-          className="corner-accents group relative border border-border bg-card/50 backdrop-blur-sm transition-all duration-700 border-glow-hover"
+          className="corner-accents group relative border border-border bg-card backdrop-blur-sm transition-all duration-700 border-glow-hover"
         >
           {/* Status bar */}
           <div className="flex items-center justify-between border-b border-border px-8 py-5 lg:px-12">
@@ -199,7 +199,7 @@ const Portfolio = () => {
                 href="https://preta.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group/link inline-flex items-center gap-4 border border-primary bg-primary/5 px-10 py-5 font-mono text-sm tracking-[0.2em] text-primary transition-all duration-500 hover:bg-primary hover:text-primary-foreground"
+                className="group/link inline-flex items-center gap-4 border border-primary bg-primary/10 px-10 py-5 font-mono text-sm tracking-[0.2em] text-primary transition-all duration-500 hover:bg-primary hover:text-primary-foreground"
               >
                 <span>VISIT PRETA.COM</span>
                 <ExternalLink className="h-4 w-4 transition-transform duration-300 group-hover/link:translate-x-1 group-hover/link:-translate-y-1" />

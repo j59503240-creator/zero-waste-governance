@@ -42,7 +42,7 @@ const Navbar = () => {
           onClick={() => scrollToSection("hero")}
           className="group flex items-center gap-4 transition-all duration-300"
         >
-          <div className="relative h-9 w-9 overflow-hidden border border-primary/50 bg-primary/5 transition-all duration-300 group-hover:border-primary group-hover:bg-primary/10">
+          <div className="relative h-9 w-9 overflow-hidden border border-primary/50 bg-primary/10 transition-all duration-300 group-hover:border-primary group-hover:bg-primary/15">
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
@@ -77,8 +77,8 @@ const Navbar = () => {
                 <motion.div
                   className="absolute inset-0 border border-transparent bg-transparent"
                   whileHover={{
-                    borderColor: "hsl(185 85% 50% / 0.3)",
-                    backgroundColor: "hsl(185 85% 50% / 0.05)",
+                    borderColor: "hsl(185 75% 35% / 0.3)",
+                    backgroundColor: "hsl(185 75% 35% / 0.05)",
                   }}
                   transition={{ duration: 0.2 }}
                 />
