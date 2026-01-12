@@ -116,7 +116,7 @@ const Hero = () => {
           >
             <button
               onClick={scrollToPortfolio}
-              className="corner-accents group relative inline-flex items-center gap-4 border border-border bg-secondary/50 px-10 py-5 font-mono text-sm tracking-[0.2em] text-foreground backdrop-blur-sm transition-all duration-500 hover:border-primary/50 hover:bg-primary/10"
+              className="corner-accents group relative inline-flex items-center gap-4 border border-border bg-secondary px-10 py-5 font-mono text-sm tracking-[0.2em] text-foreground backdrop-blur-sm transition-all duration-500 hover:border-primary/50 hover:bg-primary/10"
             >
               <span className="relative z-10">VIEW PORTFOLIO</span>
               <ArrowDown className="relative z-10 h-4 w-4 transition-transform duration-300 group-hover:translate-y-1" />

@@ -26,7 +26,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-5">
             <div className="mb-8 flex items-center gap-4">
-              <div className="relative h-10 w-10 overflow-hidden border border-primary/50 bg-primary/5">
+              <div className="relative h-10 w-10 overflow-hidden border border-primary/50 bg-primary/10">
                 <motion.div
                   animate={{ rotate: 360 }}
                   transition={{ duration: 20, repeat: Infinity, ease: "linear" }}

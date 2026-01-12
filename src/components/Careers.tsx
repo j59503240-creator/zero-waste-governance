@@ -86,7 +86,7 @@ const Careers = () => {
               initial={{ opacity: 0, x: -30 }}
               animate={isInView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
-              className="group relative flex flex-col gap-4 border border-border bg-background/50 p-6 backdrop-blur-sm transition-all duration-500 hover:border-primary/40 hover:bg-primary/5 lg:flex-row lg:items-center lg:justify-between lg:p-8"
+              className="group relative flex flex-col gap-4 border border-border bg-background p-6 backdrop-blur-sm transition-all duration-500 hover:border-primary/40 hover:bg-primary/5 lg:flex-row lg:items-center lg:justify-between lg:p-8"
             >
               {/* Left accent */}
               <div className="absolute left-0 top-0 h-full w-0 bg-primary transition-all duration-500 group-hover:w-1" />
