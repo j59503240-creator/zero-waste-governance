@@ -62,8 +62,8 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         // Custom ZeroState colors
-        cyan: {
-          glow: "hsl(var(--glow-cyan))",
+        orange: {
+          glow: "hsl(var(--glow-orange))",
         },
         steel: {
           dark: "hsl(var(--steel-dark))",
