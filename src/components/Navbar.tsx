@@ -77,8 +77,8 @@ const Navbar = () => {
                 <motion.div
                   className="absolute inset-0 border border-transparent bg-transparent"
                   whileHover={{
-                    borderColor: "hsl(185 75% 35% / 0.3)",
-                    backgroundColor: "hsl(185 75% 35% / 0.05)",
+                    borderColor: "hsl(18 90% 50% / 0.3)",
+                    backgroundColor: "hsl(18 90% 50% / 0.05)",
                   }}
                   transition={{ duration: 0.2 }}
                 />
